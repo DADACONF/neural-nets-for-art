@@ -4,7 +4,7 @@
 - Install [Docker](https://docs.docker.com/mac/)
 - Source the set-up script. This will download the nescessary Docker containers, create some folders in the working directory, and set-up some handy aliases for you:
   ```
-  source .set_up_containers.sh
+  source set_up_containers.sh
   ```
 
 ### Tools Included:
