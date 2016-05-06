@@ -29,3 +29,10 @@
     - Sample outputs from my networks, trained on:
       - [A collection of Trump debate transcripts](http://pastebin.com/jzR2UBpA)
       - [Every IMDB plot summary](http://pastebin.com/j2vj0Fsk)
+
+### Clean-up:
+If you don't think you'll use these anymore, you should remove the Docker images to free up (~2 GB?) of space on your machine:
+```
+docker rmi herval/deepdream alexjc/neural-doodle mbartoli/char-rnn
+```
+The `cv`, `frames`, `output`, and `samples` folders, containing your inputs and outputs won't be deleted.
